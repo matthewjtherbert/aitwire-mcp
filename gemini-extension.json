@@ -1,0 +1,11 @@
+{
+  "name": "aitwire-mcp",
+  "version": "1.0.0",
+  "description": "Look up business-published entity records — confirmed descriptions, structured feeds, and claim checks, each carrying its confirmation date.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "aitwire": {
+      "httpUrl": "https://api.aitwire.com/mcp"
+    }
+  }
+}
