@@ -1,11 +1,14 @@
 {
   "name": "aitwire-mcp",
-  "version": "1.0.0",
-  "description": "Look up business-published entity records — confirmed descriptions, structured feeds, and claim checks, each carrying its confirmation date.",
+  "version": "1.1.0",
+  "description": "Look up business-published entity records — confirmed descriptions, structured feeds, and claim checks, each carrying its confirmation date. With an AITWIRE account, also operate your own account: read your measurements, draft corrections for your approval, and publish them once you approve.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
     "aitwire": {
       "httpUrl": "https://api.aitwire.com/mcp"
+    },
+    "aitwire-account": {
+      "httpUrl": "https://api.aitwire.com/mcp/tenant"
     }
   }
 }
